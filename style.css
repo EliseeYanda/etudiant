@@ -1,0 +1,145 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+}
+
+
+
+.logo{
+    color: blue;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgb(41, 44, 241);
+}
+
+input{
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.navbar{
+   
+    padding: 1px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+   
+}
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar .nav_link ul{
+    display: flex;
+}
+
+.navbar .nav_link ul li{
+    margin: 0 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.corps{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+        
+}
+
+.image{
+    background: rgb(250, 247, 247);
+    
+    
+}
+
+.title{
+    
+    width: 52%;  
+}
+
+h1{
+    font-size: 5em;
+    margin: 5px;
+    padding-left: 50px;
+    color: brown;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.page{
+    background-color: rgb(147, 148, 147);
+    width: 300px;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.info{
+    background-color: brown;
+    width: 300px;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.evene{
+    background-color: rgb(83, 109, 237);
+    width: 300px;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+span{
+    color: orange;
+}
+
+em{
+    color: blue;
+}
+
+
+
+
+
+
